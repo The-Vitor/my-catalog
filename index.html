@@ -3,93 +3,51 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Meu Catálogo</title>
+<title>My Catalog</title>
 
 <style>
 body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background: linear-gradient(135deg, #0f0f0f, #1c1c1c);
+  background-color: #111;
   color: white;
+  font-family: Arial;
   text-align: center;
 }
 
-h1 {
-  margin-top: 40px;
-  font-size: 2.5rem;
-}
-
-.container {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 30px;
-  padding: 40px;
-}
-
 .card {
-  background: #1f1f1f;
-  width: 260px;
-  border-radius: 15px;
-  overflow: hidden;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background: #1e1e1e;
+  width: 300px;
+  margin: 40px auto;
+  padding: 20px;
+  border-radius: 12px;
 }
 
-.card:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 20px 40px rgba(0,0,0,0.5);
-}
-
-.card img {
+img {
   width: 100%;
-}
-
-.card h2 {
-  margin: 10px 0;
-}
-
-.price {
-  color: #00ffae;
-  font-weight: bold;
+  border-radius: 8px;
 }
 
 button {
-  background: #00ffae;
-  border: none;
+  margin-top: 15px;
   padding: 10px 20px;
+  border: none;
+  background: #00ffae;
   border-radius: 8px;
   cursor: pointer;
-  margin-bottom: 15px;
-  font-weight: bold;
-  transition: 0.3s;
-}
-
-button:hover {
-  background: #00c98b;
 }
 </style>
 </head>
 
 <body>
 
-<h1>Meu Catálogo Roblox</h1>
+<h1>My Catalog Robloxx</h1>
 
-<div class="container">
-
-  <div class="card">
-    <img src="LINK_DA_IMAGEM">
-    <h2>Item V1</h2>
-    <p class="price">50 Robux</p>
-    <button onclick="window.open('LINK_DO_ROBLOX')">Ver no Roblox</button>
-  </div>
-
-  <div class="card">
-    <img src="LINK_DA_IMAGEM">
-    <h2>Item V2</h2>
-    <p class="price">75 Robux</p>
-    <button onclick="window.open('LINK_DO_ROBLOX')">Ver no Roblox</button>
-  </div>
-
+<div class="card">
+  <img src="https://media.discordapp.net/attachments/1474717538284994592/1474718098220388493/Sticking_Out_the_Tongue_V1.webp?ex=69a2c6c1&is=69a17541&hm=5c5f1d23aa460219a744ae9afbd4fdc973dd344ecc15a89fd0bd3df5ec04c7b3&=&format=webp">
+  <h2>Nome do Item</h2>
+  <p>50 Robux</p>
+  <button onclick="window.open('https://www.roblox.com/catalog/110769009497620/Sticking-Out-the-Tongue-V1')">
+    Ver no Roblox
+  </button>
 </div>
 
 </body>
